@@ -10,7 +10,9 @@ import retrofit2.http.POST;
 
 public interface SyncApi {
 
-    @POST("/Gail/api/GPSPing")
+
+    // change the endpoint to your
+    @POST("/endpoint")
     Call<Void> syncGpsData(@Body GpsPingData pingData);
 
 }

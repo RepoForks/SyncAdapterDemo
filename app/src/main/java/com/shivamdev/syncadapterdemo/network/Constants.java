@@ -5,7 +5,7 @@ package com.shivamdev.syncadapterdemo.network;
  */
 
 public interface Constants {
-    String BASE_URL = "http://50.31.147.142";
+    String BASE_URL = "your base url";
 
     // The authority for the sync adapter's content provider
     String AUTHORITY = "com.shivamdev.syncadapterdemo.sync.provider";
